@@ -1,0 +1,22 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "Read Me Generator using node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DangerBearAZ/Readmegen.git"
+  },
+  "author": "Claire Ogesen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DangerBearAZ/Readmegen/issues"
+  },
+  "homepage": "https://github.com/DangerBearAZ/Readmegen#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
