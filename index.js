@@ -92,10 +92,10 @@ const questions = () => {
         },
 
         {
-            type: "checbox",
+            type: "checkbox",
             name: "license",
             message: 'What type of licensesing does this project fall under.',
-            choices: ['MIT', 'Apache', 'GPLv3']
+            choices: ['MIT', 'Apache', 'GPLv3', 'none']
         },
         {
             type: 'confirm',
@@ -129,10 +129,10 @@ const questions = () => {
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     console.log(template(data))
-    fs.writefile(fileName, (template(data)), (err) => {
+    fs.writeFile(fileName, (template(data)), (err) => {
         if (err) throw err;
         console.log('The file has been saved!')
-    })}
+    })};
 
 
  
