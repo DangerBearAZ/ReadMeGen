@@ -118,7 +118,7 @@ const questions = () => {
         }
 
     ]).then(data => {
-        writeToFile("fileName", data)
+        writeToFile("output/README.md", data)
     }).catch((err) => {
         console.log(err)
     })
